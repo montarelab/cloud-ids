@@ -1,0 +1,3 @@
+__pycache__
+src/experiments/models/*
+src/experiments/models-tunned/*
