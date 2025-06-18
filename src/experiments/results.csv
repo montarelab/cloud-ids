@@ -1,0 +1,49 @@
+model,scaler,cv,best_params,best_score,model_path
+random_forest,standard,kfold,"{'model__max_depth': None, 'model__min_samples_split': 2, 'model__n_estimators': 200}",0.9996904103537378,../experiments/models-tunned/random_forest_standard_kfold_best.joblib
+random_forest,standard,stratified_kfold,"{'model__max_depth': None, 'model__min_samples_split': 2, 'model__n_estimators': 100}",0.9996904103537378,../experiments/models-tunned/random_forest_standard_stratified_kfold_best.joblib
+random_forest,standard,timeseries,"{'model__max_depth': None, 'model__min_samples_split': 5, 'model__n_estimators': 100}",0.9993712788759229,../experiments/models-tunned/random_forest_standard_timeseries_best.joblib
+random_forest,standard,shuffle,"{'model__max_depth': None, 'model__min_samples_split': 2, 'model__n_estimators': 100}",0.9997777424988094,../experiments/models-tunned/random_forest_standard_shuffle_best.joblib
+random_forest,minmax,kfold,"{'model__max_depth': None, 'model__min_samples_split': 2, 'model__n_estimators': 200}",0.9994522650294441,../experiments/models-tunned/random_forest_minmax_kfold_best.joblib
+random_forest,minmax,stratified_kfold,"{'model__max_depth': 20, 'model__min_samples_split': 2, 'model__n_estimators': 200}",0.9994363882333817,../experiments/models-tunned/random_forest_minmax_stratified_kfold_best.joblib
+random_forest,minmax,timeseries,"{'model__max_depth': None, 'model__min_samples_split': 2, 'model__n_estimators': 50}",0.9991521790902598,../experiments/models-tunned/random_forest_minmax_timeseries_best.joblib
+random_forest,minmax,shuffle,"{'model__max_depth': None, 'model__min_samples_split': 2, 'model__n_estimators': 100}",0.9993491030322273,../experiments/models-tunned/random_forest_minmax_shuffle_best.joblib
+random_forest,robust,kfold,"{'model__max_depth': None, 'model__min_samples_split': 5, 'model__n_estimators': 200}",0.9996824716406284,../experiments/models-tunned/random_forest_robust_kfold_best.joblib
+random_forest,robust,stratified_kfold,"{'model__max_depth': None, 'model__min_samples_split': 2, 'model__n_estimators': 200}",0.9996745335576753,../experiments/models-tunned/random_forest_robust_stratified_kfold_best.joblib
+random_forest,robust,timeseries,"{'model__max_depth': 20, 'model__min_samples_split': 5, 'model__n_estimators': 200}",0.9993427006430101,../experiments/models-tunned/random_forest_robust_timeseries_best.joblib
+random_forest,robust,shuffle,"{'model__max_depth': None, 'model__min_samples_split': 2, 'model__n_estimators': 200}",0.9996507382124147,../experiments/models-tunned/random_forest_robust_shuffle_best.joblib
+decision_tree,standard,kfold,"{'model__max_depth': None, 'model__min_samples_split': 2}",0.9987060735739677,../experiments/models-tunned/decision_tree_standard_kfold_best.joblib
+decision_tree,standard,stratified_kfold,"{'model__max_depth': 20, 'model__min_samples_split': 2}",0.9988251460785754,../experiments/models-tunned/decision_tree_standard_stratified_kfold_best.joblib
+decision_tree,standard,timeseries,"{'model__max_depth': None, 'model__min_samples_split': 2}",0.9983900928792571,../experiments/models-tunned/decision_tree_standard_timeseries_best.joblib
+decision_tree,standard,shuffle,"{'model__max_depth': 20, 'model__min_samples_split': 2}",0.99880933481505,../experiments/models-tunned/decision_tree_standard_shuffle_best.joblib
+decision_tree,minmax,kfold,"{'model__max_depth': None, 'model__min_samples_split': 2}",0.9984282340539693,../experiments/models-tunned/decision_tree_minmax_kfold_best.joblib
+decision_tree,minmax,stratified_kfold,"{'model__max_depth': 20, 'model__min_samples_split': 2}",0.9984282327936562,../experiments/models-tunned/decision_tree_minmax_stratified_kfold_best.joblib
+decision_tree,minmax,timeseries,"{'model__max_depth': 20, 'model__min_samples_split': 2}",0.9973422243391283,../experiments/models-tunned/decision_tree_minmax_timeseries_best.joblib
+decision_tree,minmax,shuffle,"{'model__max_depth': 20, 'model__min_samples_split': 2}",0.9986982060644547,../experiments/models-tunned/decision_tree_minmax_shuffle_best.joblib
+decision_tree,robust,kfold,"{'model__max_depth': 20, 'model__min_samples_split': 5}",0.9987140107116858,../experiments/models-tunned/decision_tree_robust_kfold_best.joblib
+decision_tree,robust,stratified_kfold,"{'model__max_depth': None, 'model__min_samples_split': 2}",0.9988489609575911,../experiments/models-tunned/decision_tree_robust_stratified_kfold_best.joblib
+decision_tree,robust,timeseries,"{'model__max_depth': 20, 'model__min_samples_split': 5}",0.9983519885687068,../experiments/models-tunned/decision_tree_robust_timeseries_best.joblib
+decision_tree,robust,shuffle,"{'model__max_depth': None, 'model__min_samples_split': 2}",0.9989680901730434,../experiments/models-tunned/decision_tree_robust_shuffle_best.joblib
+svm,standard,kfold,"{'model__C': 1, 'model__loss': 'hinge', 'model__penalty': 'l2'}",0.9833932714680221,../experiments/models-tunned/svm_standard_kfold_best.joblib
+svm,standard,stratified_kfold,"{'model__C': 1, 'model__loss': 'hinge', 'model__penalty': 'l2'}",0.9833773965624296,../experiments/models-tunned/svm_standard_stratified_kfold_best.joblib
+svm,standard,timeseries,"{'model__C': 1, 'model__loss': 'hinge', 'model__penalty': 'l2'}",0.9831102643486543,../experiments/models-tunned/svm_standard_timeseries_best.joblib
+svm,standard,shuffle,"{'model__C': 1, 'model__loss': 'hinge', 'model__penalty': 'l2'}",0.9833624384822988,../experiments/models-tunned/svm_standard_shuffle_best.joblib
+svm,minmax,kfold,"{'model__C': 10, 'model__loss': 'hinge', 'model__penalty': 'l2'}",0.9831630613909766,../experiments/models-tunned/svm_minmax_kfold_best.joblib
+svm,minmax,stratified_kfold,"{'model__C': 10, 'model__loss': 'hinge', 'model__penalty': 'l2'}",0.9832106924093209,../experiments/models-tunned/svm_minmax_stratified_kfold_best.joblib
+svm,minmax,timeseries,"{'model__C': 10, 'model__loss': 'hinge', 'model__penalty': 'l2'}",0.9828721124077161,../experiments/models-tunned/svm_minmax_timeseries_best.joblib
+svm,minmax,shuffle,"{'model__C': 10, 'model__loss': 'hinge', 'model__penalty': 'l2'}",0.9826004127639308,../experiments/models-tunned/svm_minmax_shuffle_best.joblib
+svm,robust,kfold,"{'model__C': 1, 'model__loss': 'squared_hinge', 'model__penalty': 'l2'}",0.9787891121476033,../experiments/models-tunned/svm_robust_kfold_best.joblib
+svm,robust,stratified_kfold,"{'model__C': 10, 'model__loss': 'squared_hinge', 'model__penalty': 'l2'}",0.9791066389315833,../experiments/models-tunned/svm_robust_stratified_kfold_best.joblib
+svm,robust,timeseries,"{'model__C': 0.1, 'model__loss': 'squared_hinge', 'model__penalty': 'l2'}",0.9783948559180757,../experiments/models-tunned/svm_robust_timeseries_best.joblib
+svm,robust,shuffle,"{'model__C': 10, 'model__loss': 'squared_hinge', 'model__penalty': 'l2'}",0.97761549452294,../experiments/models-tunned/svm_robust_shuffle_best.joblib
+knn,standard,kfold,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",0.9988886548382172,../experiments/models-tunned/knn_standard_kfold_best.joblib
+knn,standard,stratified_kfold,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",0.9988648405893585,../experiments/models-tunned/knn_standard_stratified_kfold_best.joblib
+knn,standard,timeseries,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",0.998428197189807,../experiments/models-tunned/knn_standard_timeseries_best.joblib
+knn,standard,shuffle,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",0.9988728369582474,../experiments/models-tunned/knn_standard_shuffle_best.joblib
+knn,minmax,kfold,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",0.9987457658792025,../experiments/models-tunned/knn_minmax_kfold_best.joblib
+knn,minmax,stratified_kfold,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",0.9987457658792025,../experiments/models-tunned/knn_minmax_stratified_kfold_best.joblib
+knn,minmax,timeseries,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",0.9981709930935937,../experiments/models-tunned/knn_minmax_timeseries_best.joblib
+knn,minmax,shuffle,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",0.998904588029846,../experiments/models-tunned/knn_minmax_shuffle_best.joblib
+knn,robust,kfold,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",0.9939114008928343,../experiments/models-tunned/knn_robust_kfold_best.joblib
+knn,robust,stratified_kfold,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",0.9939352151416931,../experiments/models-tunned/knn_robust_stratified_kfold_best.joblib
+knn,robust,timeseries,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",0.9927506549178376,../experiments/models-tunned/knn_robust_timeseries_best.joblib
+knn,robust,shuffle,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",0.9939990474678521,../experiments/models-tunned/knn_robust_shuffle_best.joblib
